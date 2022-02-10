@@ -1,5 +1,7 @@
 import { FooterContainer } from "./style";
-
+import { BsFacebook } from "react-icons/bs";
+import { AiFillInstagram } from "react-icons/ai";
+import { AiFillTwitterCircle } from "react-icons/ai";
 const Footer = () => {
   return (
     <FooterContainer>
@@ -17,9 +19,15 @@ const Footer = () => {
       </div>
       <div className="medias">
         <p>Don't Miss Our Promo On</p>
-        <div>FB</div>
-        <div>IG</div>
-        <div>TT</div>
+        <div className="icons">
+          <BsFacebook />
+        </div>
+        <div className="icons instagram">
+          <AiFillInstagram />
+        </div>
+        <div className="icons">
+          <AiFillTwitterCircle />
+        </div>
       </div>
     </FooterContainer>
   );

@@ -11,24 +11,17 @@ const images = [
   { url: image4 },
   { url: image5 },
 ];
-const style = {
-  backgroundColor: "rgba(0, 0, 0, 0.01)",
-  // position: "absolute",
-  top: 0,
-  zIndex: "-1",
-};
 const Slider = () => {
   return (
     <div>
       <SimpleImageSlider
-        bgColor="#ffffff0"
+        bgColor="#ffffff"
         slideDuration={1}
         width={500}
         height={425}
         images={images}
         showBullets={false}
-        showNavs={true}
-        navStyle={2}
+        showNavs={false}
         autoPlay={true}
       />
     </div>

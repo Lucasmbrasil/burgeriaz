@@ -9,11 +9,15 @@ export const LeftSectionContainer = styled.section`
     font-size: 77px;
     color: #0e0d2a;
     font-weight: 400;
+    font-family: "Modak", cursive;
+    line-height: 65px;
     span {
       color: #e39b00;
     }
   }
   h2 {
+    font-family: "Open Sans";
+    font-weight: 300;
     height: 67px;
     font-size: 28px;
     letter-spacing: 3px;
@@ -26,9 +30,10 @@ export const LeftSectionContainer = styled.section`
     margin: 20px 0;
     font-size: 16px;
     line-height: 25px;
-    font-weight: 250;
     opacity: 0.8;
     color: #101010;
+    font-weight: 250;
+    font-family: "Roboto";
   }
   .getStartedButton {
     width: 205px;
