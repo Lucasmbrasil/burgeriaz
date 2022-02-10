@@ -4,15 +4,19 @@ const Footer = () => {
   return (
     <FooterContainer>
       <div className="about">
-        <span>About us</span>
-        <div>
+        <span>
+          {" "}
+          <div className="line"></div>About Us
+        </span>
+
+        <p className="description">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. mpor
           incididunt utmpor
-        </div>
+        </p>
       </div>
       <div className="medias">
-        <div>Don't Miss Our Promo On</div>
+        <p>Don't Miss Our Promo On</p>
         <div>FB</div>
         <div>IG</div>
         <div>TT</div>

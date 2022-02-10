@@ -6,7 +6,7 @@ const Header = () => {
         <p>LOGO</p>
       </div>
       <NavContainer>
-        <p>Home</p>
+        <p className="home">Home</p>
         <p>New Menu</p>
         <p>About Us</p>
         <p>Main Course</p>

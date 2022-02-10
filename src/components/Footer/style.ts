@@ -6,18 +6,35 @@ export const FooterContainer = styled.footer`
   margin: 0 auto;
   justify-content: space-between;
   align-items: flex-end;
+  text-align: left;
+  .description {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 250;
+    opacity: 0.8;
+    color: #101010;
+  }
   .about {
     width: 401px;
     height: 142px;
     font-size: 16px;
-    h3 {
+    .line {
+      position: absolute;
+      left: 0;
+      width: 7.5vw;
+      border-top: 5px solid black;
+    }
+    span {
       text-align: left;
-      margin: 0;
       font-size: 25px;
-      line-height: 41px;
       color: #e39b00;
-      font-weight: 700;
-      font-family: "Roboto";
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+    }
+    p {
+      margin-top: 10px;
+      /* text-align: left; */
     }
   }
   .medias {
@@ -29,8 +46,10 @@ export const FooterContainer = styled.footer`
     line-height: 41px;
     color: #000000;
     font-weight: 400;
-    div {
+    div,
+    p {
       margin: 0 12.5px;
+      font-weight: 300;
     }
   }
 `;
