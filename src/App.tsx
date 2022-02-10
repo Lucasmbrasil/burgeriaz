@@ -6,6 +6,7 @@ import CircleRight from "./components/CircleRight";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LeftSection from "./components/LeftSection";
+import Slider from "./components/Slider";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Header />
         <div className="App-header">
           <LeftSection />
+          <Slider />
         </div>
         <Footer />
       </div>
