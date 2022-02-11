@@ -23,9 +23,6 @@ export const CirclesContainer = styled.div`
   position: absolute;
   z-index: -1;
   overflow: clip;
-  @media screen and (max-width: 600px) {
-    display: none;
-  }
 `;
 
 export const MainContainer = styled.section`
