@@ -96,6 +96,7 @@ export const FooterContainer = styled.footer`
   @media screen and (max-width: 600px) {
     .medias {
       flex-direction: column;
+      width: 100%;
     }
   }
 `;
