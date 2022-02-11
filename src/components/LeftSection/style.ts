@@ -4,7 +4,12 @@ export const LeftSectionContainer = styled.section`
   display: flex;
   text-align: left;
   flex-wrap: wrap;
+  margin: 50px 0;
   width: 656px;
+  @media screen and (max-width: 1440px) {
+    width: 500px;
+  }
+
   h1 {
     font-size: 77px;
     color: #0e0d2a;
@@ -38,7 +43,7 @@ export const LeftSectionContainer = styled.section`
   .getStartedButton {
     width: 205px;
     height: 50px;
-    border: 2px solid rgba(14, 13, 42, 0.4000000059604645);
+    border: 2px solid rgba(14, 13, 42, 0.4);
     border-radius: 25px;
 
     p {
@@ -50,6 +55,48 @@ export const LeftSectionContainer = styled.section`
       margin: 0;
       font-weight: 300;
       text-align: center;
+    }
+    :hover {
+      p {
+        color: #ffffff;
+        opacity: 1;
+      }
+      background-color: rgb(227, 155, 0);
+      cursor: pointer;
+      transition: 0.3s;
+      :hover {
+        border-color: #0e0d2a;
+        transform: scale(1.1);
+      }
+    }
+  }
+  @media screen and (max-width: 1440px) {
+    width: 500px;
+    h1 {
+      font-size: 57px;
+    }
+  }
+  @media screen and (max-width: 1200px) {
+    width: 450px;
+    h1 {
+      font-size: 50px;
+    }
+    h2 {
+      font-size: 25px;
+    }
+  }
+  @media screen and (max-width: 960px) {
+    justify-content: center;
+    text-align: center;
+    margin: 50px 0;
+  }
+  @media screen and (max-width: 600px) {
+    width: 380px;
+    h1 {
+      font-size: 40px;
+    }
+    h2 {
+      font-size: 20px;
     }
   }
 `;

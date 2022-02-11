@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import CircleLeftBottom from "./components/CircleLeftBottom";
 import CircleLeftTop from "./components/CircleLeftTop";
 import CircleRight from "./components/CircleRight";
@@ -7,23 +6,30 @@ import Footer from "./components/Footer";
 import Header from "./components/Header";
 import LeftSection from "./components/LeftSection";
 import Slider from "./components/Slider";
+import {
+  CirclesContainer,
+  GlobalContainer,
+  GlobalStyle,
+  MainContainer,
+} from "./global";
 
 function App() {
   return (
     <>
-      <div className="circle">
+      <GlobalStyle />
+      <CirclesContainer>
         <CircleLeftTop />
         <CircleRight />
         <CircleLeftBottom />
-      </div>
-      <div className="App">
+      </CirclesContainer>
+      <GlobalContainer>
         <Header />
-        <div className="App-header">
+        <MainContainer>
           <LeftSection />
           <Slider />
-        </div>
+        </MainContainer>
         <Footer />
-      </div>
+      </GlobalContainer>
     </>
   );
 }
