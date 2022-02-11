@@ -16,7 +16,7 @@ const images = [
 
 const Slider = () => {
   const ultraScreen = useMediaQuery({ query: "(min-width: 1440px)" });
-  const bigScreen = useMediaQuery({ query: "(min-width: 1200px)" });
+  const bigScreen = useMediaQuery({ query: "(min-width: 1240px)" });
   const tabletScreen = useMediaQuery({ query: "(min-width: 960px)" });
   const mobileScreen = useMediaQuery({ query: "(max-width: 600px)" });
 
@@ -27,7 +27,7 @@ const Slider = () => {
   return (
     <div>
       <SimpleImageSlider
-        bgColor="#ffffff"
+        bgColor="#ffffff0"
         style={style}
         slideDuration={1}
         width={

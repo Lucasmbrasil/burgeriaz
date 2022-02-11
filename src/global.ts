@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const GlobalStyle = createGlobalStyle`
 body {
-  background-color: #fbfafa;
+  background-color: #fafafa;
 }
 h1,
 h2,
@@ -18,11 +18,14 @@ export const GlobalContainer = styled.main`
   margin: 0 auto;
 `;
 export const CirclesContainer = styled.div`
-  height: 100vh;
+  height: 110vh;
   width: 100%;
   position: absolute;
   z-index: -1;
   overflow: clip;
+  @media screen and (max-width: 960px) {
+    display: none;
+  }
 `;
 
 export const MainContainer = styled.section`

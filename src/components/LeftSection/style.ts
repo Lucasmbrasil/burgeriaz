@@ -70,6 +70,23 @@ export const LeftSectionContainer = styled.section`
       }
     }
   }
+  .food {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+    z-index: -5;
+    font-family: "Archivo", sans-serif;
+    font-size: 146px;
+    line-height: 65px;
+    color: #f1f1f1;
+    font-weight: 700;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000101;
+    opacity: 0.4;
+    @media screen and (max-width: 960px) {
+      display: none;
+    }
+  }
   @media screen and (max-width: 1440px) {
     width: 500px;
     h1 {

@@ -14,6 +14,7 @@ const LeftSection = () => {
       <div className="getStartedButton">
         <p>GET STARTED</p>
       </div>
+      <p className="food">FOOD</p>
     </LeftSectionContainer>
   );
 };
