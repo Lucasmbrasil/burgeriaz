@@ -78,6 +78,9 @@ export const FooterContainer = styled.footer`
       font-size: 25px;
     }
   }
+  .iconsContainer {
+    display: flex;
+  }
   @media screen and (max-width: 960px) {
     flex-direction: column;
     align-items: center;
@@ -88,6 +91,11 @@ export const FooterContainer = styled.footer`
     }
     .line {
       display: none;
+    }
+  }
+  @media screen and (max-width: 600px) {
+    .medias {
+      flex-direction: column;
     }
   }
 `;

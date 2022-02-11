@@ -19,14 +19,16 @@ const Footer = () => {
       </div>
       <div className="medias">
         <p>Don't Miss Our Promo On</p>
-        <div className="icons">
-          <BsFacebook />
-        </div>
-        <div className="icons instagram">
-          <AiFillInstagram />
-        </div>
-        <div className="icons">
-          <AiFillTwitterCircle />
+        <div className="iconsContainer">
+          <div className="icons">
+            <BsFacebook />
+          </div>
+          <div className="icons instagram">
+            <AiFillInstagram />
+          </div>
+          <div className="icons">
+            <AiFillTwitterCircle />
+          </div>
         </div>
       </div>
     </FooterContainer>
